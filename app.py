@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from data.database import Database
-from utils.notifications import NotificationManager
+from notifications import NotificationManager
 
 # Initialize database and notification manager
 @st.cache_resource
